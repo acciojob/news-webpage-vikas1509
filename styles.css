@@ -1,1 +1,71 @@
 /*  your css code here. If applicable */
+.header{
+	background-color:#011e29;
+	color:white;
+	height:60px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+
+}
+.Articles{
+	display:flex;
+	justify_content:space-between;
+	width:1900px;
+}
+.latest{
+	display:flex;
+	flex-direction:column;
+background:white;
+	border:2px solid white;
+	border-radius:10px;
+	width:300pxpx;
+	height:200px;
+	
+}
+ul{
+	display:flex;
+	flex-direction:column;
+	
+	
+	flex-grow:1px;
+
+}
+.Main{
+	display:flex;
+	flex-direction:column;
+	border:2px solid white;
+	border-radius:10px;
+	background-color:white;
+	height:300px;
+	
+}
+.main>h3{
+	display:flex;
+	justify-content:center;
+	
+}
+.pic{
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+	width:140px;
+	gap:10px;
+	background-color:white;
+	justify-content:center;
+}
+.h3{
+	justify-content:center;
+}
+body{
+	background-color: #f5f5f5;
+	gap:20px;
+}
+p{
+	width:400px;
+	display:flex;
+	
+}
+container{
+	gap:20px;
+}
