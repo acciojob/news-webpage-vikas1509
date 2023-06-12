@@ -9,11 +9,13 @@
 
 }
 .Articles{
+	padding:20px;
 	display:flex;
 	justify_content:space-between;
 	width:1900px;
 }
 .latest{
+	
 	display:flex;
 	flex-direction:column;
 background:white;
@@ -58,9 +60,12 @@ ul{
 	justify-content:center;
 }
 body{
-	background-color: #f5f5f5;
-	gap:20px;
+	background-color: black;
+	
+	width:800px;
+	gap:40px;
 }
+
 p{
 	width:400px;
 	display:flex;
